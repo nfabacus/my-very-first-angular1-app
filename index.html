@@ -5,9 +5,11 @@
     <title>My First Angular App</title>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
   </head>
-  <body>
-    <input type="text" ng-model="yourInput" placeholder="Please type in something to display on screen.">
-    <h2>{{yourInput}}</h2>
-
+  <body ng-init="list = [{name:'John', age:27 }, {name:'Tom', age:43 }, {name:'Lily', age:26 }]">
+    <ul>
+      <li ng-repeat="item in list">
+        {{item.name}} - {{item.age}}
+      </li>
+    </ul>
   </body>
 </html>
