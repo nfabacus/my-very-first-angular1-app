@@ -6,5 +6,11 @@ angular.module('directoryApp', [])
         {name:'Lily', age:26 },
         {name:'Ben', age:67 },
         {name:'Ellie', age:34 }
-      ]
+      ];
+
+      $scope.addPerson = function() {
+        $scope.list.push({name:$scope.name, age: $scope.age});
+        $scope.name= '';
+        $scope.age = 0;
+      };
     });
