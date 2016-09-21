@@ -14,3 +14,4 @@ In this case, it is even much easier than React.
 - Controller as Syntax (gets rid of $scope)
 - Uses filters in Angular templates
 - Conditional classes with ngClass
+- adds images to the list.
