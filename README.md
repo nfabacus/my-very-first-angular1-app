@@ -11,3 +11,5 @@ In this case, it is even much easier than React.
 - Added basic filter.  Again it is soo easy to implement, even compared with react.
 - Added my first Angular controller.
 - Added a form event.
+- Controller as Syntax (gets rid of $scope)
+- Uses filters in Angular templates
