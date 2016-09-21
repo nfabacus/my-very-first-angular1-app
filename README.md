@@ -13,3 +13,4 @@ In this case, it is even much easier than React.
 - Added a form event.
 - Controller as Syntax (gets rid of $scope)
 - Uses filters in Angular templates
+- Conditional classes with ngClass
