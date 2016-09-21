@@ -1,9 +1,23 @@
-angular.module('directoryApp', ['ngAnimate'])
+angular.module('directoryApp', ['ngAnimate', 'ui.router'])
+    .config(function($stateProvider, $urlRouterProvider){
+
+      $urlRouterProvider.otherwise('/');
+
+      $stateProvider
+        .state('home', {
+          url: '/',
+          template: '<h1>Hello</h1>'
+        })
+        .state('about', {
+          url: '/about',
+          template: '<h1>About</h1>'
+        });
+    })
     .controller('directoryController', function() {
 
       var dirList = this;
 
-      dirList.toggle = false;
+      dirList.toggle = true;
 
       dirList.list = [
         {name:'John', age:27, img: 'https://randomuser.me/api/portraits/men/43.jpg' },

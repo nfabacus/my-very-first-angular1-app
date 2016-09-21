@@ -24,3 +24,4 @@ In this case, it is even much easier than React.
 - adds images to the list.
 - adds svg with ng-include. avoid the main code becoming messy with svg code.
 - adds ngAnimate
+- adds UI router first time.

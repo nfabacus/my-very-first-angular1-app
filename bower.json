@@ -1,0 +1,17 @@
+{
+  "name": "myFirstAngularApp",
+  "homepage": "https://github.com/nfabacus/my-very-first-angular1-app",
+  "authors": [
+    "noby <n.fujioka@abacusmaths.info>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
