@@ -3,6 +3,12 @@
 I am just playing around with Angular 1 for the first time.
 I will build a very simple app using Angular 1, following "AngularJS for Everyone" by LevelUpTutorial.
 
+## requirements
+Run the simple server in the terminal with the following command, and go to local host 8000.
+```
+python -m SimpleHTTPServer
+```
+
 ## Update
 14 Sept: Just got started.  Wow, two way data binding and ready-made directive!  No single line of javascript yet. But, I can do this? - Display input value instantly without page refresh.
 In this case, it is even much easier than React.

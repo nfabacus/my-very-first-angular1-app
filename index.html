@@ -21,12 +21,31 @@
       #twitter {
         fill: blue;
       }
+      li.ng-enter {
+        transition: 0.3s ease all;
+        opacity:0;
+        transform:translateX(-100%);
+      }
+      li.ng-enter.ng-enter-active {
+        opacity:1;
+        transform:translateX(0);
+      }
+      li.ng-leave {
+        transition: 0.3s ease all;
+        opacity:1;
+        transform:translateX(0);
+      }
+      li.ng-leave.ng-leave-active {
+        transform:translateX(100%);
+        opacity:0;
+
+      }
     </style>
   </head>
 
   <body ng-controller="directoryController as dirList">
     <input type="text" ng-model="search">
-    <ul ng-class = "{'hidden': !dirList.toggle }">
+    <ul ng-if="dirList.toggle">
       <li ng-repeat="item in dirList.list | filter:search"
       ng-include="'person.html'">
       </li>
