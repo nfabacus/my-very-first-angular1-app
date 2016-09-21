@@ -15,3 +15,4 @@ In this case, it is even much easier than React.
 - Uses filters in Angular templates
 - Conditional classes with ngClass
 - adds images to the list.
+- adds svg with ng-include. avoid the main code becoming messy with svg code.
