@@ -7,59 +7,13 @@
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-animate.js"></script>
     <script src="/bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
     <script src="directory.js"></script>
-    <style>
-      .over-thirty {
-        background: red;
-        color: white;
-      }
-      .under-thirty {
-        background: blue;
-        color: white;
-      }
-      .hidden {
-        display: none;
-      }
-      #twitter {
-        fill: blue;
-      }
-      li.ng-enter {
-        transition: 0.3s ease all;
-        opacity:0;
-        transform:translateX(-100%);
-      }
-      li.ng-enter.ng-enter-active {
-        opacity:1;
-        transform:translateX(0);
-      }
-      li.ng-leave {
-        transition: 0.3s ease all;
-        opacity:1;
-        transform:translateX(0);
-      }
-      li.ng-leave.ng-leave-active {
-        transform:translateX(100%);
-        opacity:0;
 
-      }
-    </style>
+    <link rel="stylesheet" href="style.css" >
+
   </head>
 
-  <!-- <body ng-controller="directoryController as dirList"> -->
   <body>
     <main ui-view></main>
-    <!-- <input type="text" ng-model="search">
-    <ul ng-if="dirList.toggle">
-      <li ng-repeat="item in dirList.list | filter:search"
-      ng-include="'person.html'">
-      </li>
-    </ul>
 
-    <button ng-show="!dirList.toggle" ng-click="dirList.toggle = true">Show Names</button>
-    <button ng-show="dirList.toggle" ng-click="dirList.toggle = false">Hide Names</button>
-    <form ng-submit="dirList.addPerson()">
-      <input type="text" placeholder="Name" ng-model="dirList.name">
-      <input type="number" placeholder="Age" ng-model="dirList.age">
-      <input type="submit" value="Submit">
-    </form> -->
   </body>
 </html>
