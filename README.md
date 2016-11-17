@@ -1,6 +1,6 @@
-# My First Angular 1 App - Getting Started
+# Angular 1 App - Getting Started
 
-I am just playing around with Angular 1 for the first time.
+I am just playing with Angular 1.
 I will build a very simple app using Angular 1, following "AngularJS for Everyone" by LevelUpTutorial.
 
 ## requirements
